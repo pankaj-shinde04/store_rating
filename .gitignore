@@ -1,0 +1,316 @@
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production builds
+/frontend/build
+/backend/dist
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Uploads and user content
+/uploads/
+/public/uploads/
+/backend/uploads/
+
+# Database files
+*.sqlite
+*.db
+
+# Test files
+test-results/
+coverage/
+
+# IDE files
+*.sublime-project
+*.sublime-workspace
+
+# Package manager lock files (keep package-lock.json but ignore yarn.lock if using npm)
+yarn.lock
+
+# Firebase
+.firebase/
+
+# Heroku
+.heroku/
+
+# Vercel
+.vercel
+
+# Local development
+.local
+
+# Build artifacts
+*.tgz
+*.tar.gz
+
+# Project-specific important files
+# =================================
+
+# Test scripts and temporary files
+test-*.js
+test-*.json
+create-*.js
+test-*.jsx
+test-*.ts
+
+# Configuration files with sensitive data
+config/database.js.backup
+config/keys.js
+config/secrets.js
+
+# Backup files
+*.backup
+*.bak
+*.old
+
+# Documentation drafts
+*.draft.md
+README.draft.md
+DOCS.draft.*
+
+# Session and authentication files
+session-*.json
+auth-*.json
+token-*.json
+
+# API testing files
+api-test-*.js
+test-api-*.js
+
+# Migration backup files
+migrations/backup/
+migrations/*.backup.sql
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+*.csr
+
+# Local configuration overrides
+config/local.js
+config/development.local.js
+config/production.local.js
+
+# Temporary database exports
+*.sql.backup
+database-export-*.sql
+db-backup-*.sql
+
+# Performance and profiling files
+*.prof
+*.profile
+performance-*.json
+
+# Generated documentation
+docs/generated/
+api-documentation/
+
+# Local development tools
+.local-dev/
+dev-tools/
+
+# Cache and temp directories for specific tools
+.eslintcache
+.stylelintcache
+.postcssrc.cache
+
+# Windows specific
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS specific
+.AppleDouble
+.LSOverride
+
+# Linux specific
+*~
+
+# IDE specific files
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/shelf
+.idea/contentModel.xml
+
+# Testing coverage reports
+coverage/
+coverage-html/
+.nyc_output/
+junit.xml
+
+# E2E test artifacts
+cypress/screenshots/
+cypress/videos/
+playwright-report/
+test-results/
+
+# Build and distribution folders
+build/
+dist/
+out/
+target/
+
+# Package manager files
+package-lock.json.backup
+yarn.lock.backup
+
+# Local environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary logs and debug files
+debug.log
+error.log
+access.log
+server.log
+
+# Database migration logs
+migration-*.log
+db-migrate-*.log
+
+# API rate limiting and cache files
+cache/
+rate-limit-*.json
+
+# User uploaded content (if any)
+user-content/
+uploads/
+temp-uploads/
+
+# Monitoring and analytics files
+monitoring-*.json
+analytics-*.log
+
+# Security and audit logs
+security-*.log
+audit-*.log
+
+# Development server files
+.dev-server/
+hot-reload-*.json
+
+# Component library build files
+storybook-static/
+component-docs/
+
+# Localization and i18n files
+locales/temp/
+i18n/temp/
+
+# Asset optimization files
+webpack-stats.json
+bundle-analyzer-*.json
+
+# Docker development files
+docker-compose.override.yml
+.docker-dev/
+
+# Kubernetes development files
+k8s-dev/
+local-*.yaml
